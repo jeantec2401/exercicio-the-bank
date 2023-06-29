@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-size:15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Instrument+Sans:wght@600&family=Outfit:wght@400;700&family=Poppins:wght@200;500;700&family=Public+Sans&family=Roboto:wght@300;400;500;900&display=swap');
+
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Public Sans', monospace;
+}
+.menu{
+    display: flex;
+    font-weight: 400;
+    
+}
+.menu li{
+    
+    margin-left: 50px;
+    align-self: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.cadastre-se{
+    color: white;
+    background-color: #5BC241;
+    
+    padding: 10px 21px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sobre {
+    color: white;
+    background-color:  #5BC241;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
